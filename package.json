@@ -1,0 +1,15 @@
+{
+  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "name": "ulimit",
+  "description": "ulimit is a tiny node module for parsing `ulimit` output. Useful when you want to know more about your app's limitations (number of open files, etc.)",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmalecki/node-ulimit.git"
+  },
+  "engines": {
+    "node": ">= v0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
