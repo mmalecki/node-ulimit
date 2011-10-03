@@ -44,7 +44,7 @@ module.exports = function (callback) {
         match[1] = match[1].trim();
 
         // Try to convert value to an integer when possible
-        var value = parseInt(match[2]);
+        var value = parseInt(match[2], 10);
         isNaN(value) && (value = match[2]);
 
         // When value is `'unlimited'`, change it to null
