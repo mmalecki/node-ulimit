@@ -37,7 +37,7 @@ module.exports = function (callback) {
 
     var result = {};
     // Then do some simple regex matching on all lines
-    var re = /([a-z -]+)(?:\([a-z, -]+\)) ([a-z0-9]+)/
+    var re = /([A-Za-z -]+)(?:\([a-z, -]+\)) ([a-z0-9]+)/
     output.forEach(function (line) {
       var match = re.exec(line);
       if (match) {
