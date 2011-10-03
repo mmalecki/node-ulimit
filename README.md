@@ -6,5 +6,5 @@ ulimit is a tiny node module for parsing `ulimit` output. Useful when you want t
 
 ## Installation
 
-    npm intall ulimit
+    npm install ulimit
 
