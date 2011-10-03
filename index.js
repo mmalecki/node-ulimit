@@ -7,6 +7,7 @@ var stringMapping = {
   'file size': 'fileSize',
   'pending signals': 'pendingSignals',
   'max locked memory': 'maxLockedMemory',
+  'max memory size': 'maxMemorySize',
   'open files': 'openFiles',
   'pipe size': 'pipeSize',
   'POSIX message queues': 'POSIXMessageQueues',
